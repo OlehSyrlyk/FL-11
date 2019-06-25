@@ -1,0 +1,166 @@
+body {
+  margin: 0px; }
+
+.header {
+  background-image: url(../img/m-h-day.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 0px 35%;
+  min-height: 35vw;
+  color: #21232e; }
+  .header .header-wrap {
+    padding-left: 100px;
+    max-width: 30%; }
+    .header .header-wrap .landing-logo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      height: 45px;
+      padding-top: 15px;
+      font-size: 24px; }
+      .header .header-wrap .landing-logo p {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600; }
+        .header .header-wrap .landing-logo p span {
+          font-size: 12px;
+          line-height: 0px; }
+    .header .header-wrap .header_heading {
+      font-size: 45px;
+      font-weight: bolder;
+      font-family: 'Source Sans Pro', sans-serif;
+      max-width: 300px;
+      position: relative;
+      z-index: 1;
+      font-weight: bold;
+      font-size: 45px;
+      max-width: 400px;
+      margin-bottom: 40px; }
+      .header .header-wrap .header_heading:before {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #359FC6;
+        z-index: -1;
+        height: 20px;
+        width: 185px;
+        left: 0;
+        bottom: 2px; }
+    .header .header-wrap .header_text {
+      text-align: left;
+      position: sticky;
+      font-size: 18px; }
+
+.header_button, .section_banner_button {
+  background-color: #699900;
+  width: 120px;
+  height: 40px;
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-size: 18px; }
+  .header_button:hover, .section_banner_button:hover {
+    background-color: #8bc905;
+    transition: 1s; }
+
+.section_text {
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000000; }
+
+.section_card_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55vh; }
+
+.section_card {
+  background-color: #21232e;
+  text-align: center;
+  color: #c4c6cf;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 5px;
+  width: 300px;
+  height: 350px;
+  margin: 20px; }
+  .section_card .section_card_img {
+    padding-top: 20px;
+    width: 260px;
+    border-radius: 5px; }
+  .section_card .section_card_heading {
+    line-height: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; }
+  .section_card .section_card_text {
+    font-size: 12px;
+    padding: 10px;
+    color: #c4c6cf;
+    font-family: 'Source Sans Pro', sans-serif; }
+
+.section_banner {
+  background-image: linear-gradient(to right, #699900, #1064d1);
+  border-radius: 5px;
+  z-index: 1;
+  max-width: 60vw;
+  height: 150px;
+  margin-left: 20vw;
+  margin-bottom: -65px;
+  position: relative;
+  text-align: left; }
+  .section_banner .section_banner_text_wrap {
+    padding-left: 100px;
+    max-width: 30%;
+    display: flex;
+    flex-direction: row; }
+    .section_banner .section_banner_text_wrap .section_banner_heading {
+      font-size: 20px;
+      font-family: 'Source Sans Pro', sans-serif;
+      position: relative;
+      z-index: 1; }
+      .section_banner .section_banner_text_wrap .section_banner_heading:before {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #359FC6;
+        z-index: -1;
+        height: 25px;
+        width: 10px;
+        left: 1500;
+        bottom: 0px; }
+      .section_banner .section_banner_text_wrap .section_banner_heading .section_banner_text {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        font-family: 'Source Sans Pro', sans-serif; }
+
+.footer {
+  background-color: #21232e;
+  height: 250px; }
+  .footer .footer-wrap {
+    color: #ffffff;
+    text-align: left;
+    display: flex;
+    padding-top: 65px;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: space-around; }
+  .footer .footer_logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    height: 45px;
+    font-size: 18px;
+    color: #ffffff; }
+  .footer .footer-cr {
+    font-size: 14px; }
