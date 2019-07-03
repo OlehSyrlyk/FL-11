@@ -20,7 +20,7 @@ body {
   margin-right: 100px;
 }
 header {
-  background-color: var(--bg-color--header);
+  background-color: #162b4d;
   height: 80px;
 }
 .button-menu {
@@ -271,7 +271,7 @@ article h2 {
   padding: 20px;
 }
 footer{
-  background-color: var(--bg-footer-color);
+  background-color: #162b4d;
   color: #b8b8b8;
   font-weight: 100;
   font-size: 14px;
@@ -291,7 +291,7 @@ footer{
     margin-right: 100px;
   }
   header {
-    background-color: var(--bg-color--header);
+    background-color: #0b192f;
     height: 80px;
   }
   .button-menu {
@@ -496,7 +496,7 @@ footer{
     padding: 20px;
   }
   footer {
-    background-color: var(--bg-footer-color);
+    background-color: #162b4d;
     color: #b8b8b8;
     font-weight: 100;
     font-size: 14px;
