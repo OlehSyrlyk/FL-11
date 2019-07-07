@@ -1,0 +1,11 @@
+let Ax = +prompt('Enter X of point A', '0');
+let Ay = +prompt('Enter Y of point A', '0');
+let Bx = +prompt('Enter X of point B', '0');
+let By = +prompt('Enter Y of point B', '0');
+let Cx = +prompt('Enter X of point C', '0');
+let Cy = +prompt('Enter Y of point C', '0');
+let D = 2;
+let X = (Ax + Bx) / D;
+let Y = (Ay + By) / D;
+let result = X===Cx && X===Cy;
+console.log(result);
