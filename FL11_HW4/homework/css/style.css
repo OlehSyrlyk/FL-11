@@ -66,11 +66,10 @@ span .head-description {
     text-align: center;
 }
 .black-and-white {
-    background: linear-gradient(5deg, #E8E8E8 70%, #000000 20%);
-    min-height: 600px;
-    max-height: 3000px;
+    background: linear-gradient(5deg, #E8E8E8 44%, #000000 45%);
+    max-height: 2000px;
     display: grid;
-    grid-template-rows: 300px auto auto ; 
+    grid-template-rows: 300px auto ; 
     grid-template-columns: 33% 33% 33%;
     grid-template-areas:"black-areagrd . white-areagrd"
                          ". article-titelgrd .";
@@ -80,6 +79,7 @@ span .head-description {
     grid-area: black-areagrd;
     justify-self: end;
     align-self: center;
+    padding-top: 35%;
     padding-left: 10%;
 }
 .white-area { 
@@ -93,6 +93,7 @@ span .head-description {
 }
 .article-titel h1 {
     font-size: 26px;
+    padding-bottom: 20px;
     font-weight: normal;   
 }
 .main-sections {
@@ -101,7 +102,8 @@ span .head-description {
 .art-section {
     display: grid;
     grid-template-rows: auto auto ; 
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     grid-template-areas:"art-image1grd art-description1grd"
                          "art-description2grd art-image2grd";
 }
@@ -110,7 +112,7 @@ span .head-description {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
+    width: 100%;
     height: 400px;
     grid-area: art-image1grd;
     justify-self: end;
@@ -120,7 +122,7 @@ span .head-description {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
+    width: 100%;
     height: 400px;
     grid-area: art-image2grd;  
 }
@@ -129,8 +131,9 @@ span .head-description {
     padding-left: 20px;
     color:#FFFFFF;
     }
-.art-image1 .likes, .art-image2 .like{
-    margin-left: 700px;
+.art-image1 .likes, .art-image2 .likes{
+    float: right;
+    margin-right: 10px;
     color: #FFFFFF;
 }
 .art-description1 {
@@ -156,17 +159,26 @@ text-align: center;
     color: #FFFFFF;
 }
 .likes {
-    background-color: rgba(0, 0, 0, 0.5) ;
+    background-color: rgba(0, 0, 0, 0.3) ;
     width: 50px;
     height: 30px;
     border: #FFFFFF 2px solid; 
     font-size: 14px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     grid-area: rightlikes;
-    margin-top:10px;
+    
 }
+.explore {
+    margin-top: 50px;
+}
+.explore .likes {
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
 .image1 p {
     grid-area: countryname;
     justify-self: end;
@@ -268,12 +280,12 @@ button {
     display: flex;
     flex-direction: column;; 
     padding: 60px 100px 0px 100px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 fieldset {
-border: none;
-font-size: 26px;
-float: right;
+    border: none;
+    font-size: 26px;
+    float: right;
 }
 .subscribe-btn {
     width: 90px;
